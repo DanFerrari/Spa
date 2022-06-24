@@ -20,7 +20,7 @@ body,html{
 
   --font: 'Roboto',sans-serif;
   --color-unset-nav:hsla(240, 7%, 78%, 1);
-  --img-home: url(https://i.imgur.com/Sa0wU9S.png);
+  --img-home: url('https://i.imgur.com/Sa0wU9S.png');
   --img-universe:url('https://i.imgur.com/V1GvQNB.png');
   --img-exploration:url('https://i.imgur.com/jzxHCbM.png');
   --color-unset-body:#E1E1E6;
