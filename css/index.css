@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+body,html{
+  overflow: hidden;
+}
+
+
+
+
+
+
+:root{
+
+  font-size: 62.5%;
+
+  --font: 'Roboto',sans-serif;
+  --color-unset-nav:hsla(240, 7%, 78%, 1);
+  --img-home: url(/imgs/mountains-universe-1.png);
+  --img-universe:url(/imgs/mountains-universe02.png);
+  --img-exploration:url(/imgs/mountains-universe-3.png);
+  --color-unset-body:#E1E1E6;
+}
+body{
+  font-family: var(--font);
+  min-width: 100vw;
+  min-height: 100vh;
+  background-size: cover;
+  background: url(/imgs/mountains-universe-1.png);
+  
+}
+
+header{
+  width: 100vw;
+  height:12rem;
+  
+}
+
+header nav{
+  width: 100vw;
+  height: 100%;
+  align-items: center;
+  
+}
+
+header nav ul{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:3.2rem;
+  list-style: none;
+  margin-left:7.2rem;
+  
+} 
+header nav ul a{
+  text-decoration: none;
+  font-family: 'Roboto';
+color: var(--color-unset-nav);
+font-weight: 400;
+font-size: 24px;
+line-height: 22px;
+
+}
+
+header nav ul a:hover{
+  color: white;
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+  
+}
+
+#app{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 17rem;
+gap: 2.4rem;
+}
+.home-h1{
+  color: var(--color-unset-body);
+  font-weight: 700;
+font-size: 48px;
+line-height: 125%;
+}
+
+.button-home{
+  width: 20rem;
+  height: 5rem;
+  padding: 1.2rem 3.2rem;
+  gap: .8rem;
+  
+  display: flex;
+  align-items: center;
+
+  border: 2px solid white;
+  border-radius: .5rem;
+  
+  background: transparent;
+
+  cursor: pointer;
+  
+  font-size: 1.2rem;
+  font-weight: 700;
+ transition: 1s;
+
+  color: white;
+}
+.button-home:hover{
+  color: #02799D;
+  background-color: white;
+}
+
+.universe,.exploration{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rem;
+  color: var(--color-unset-body);
+  gap:1.6rem;
+  transition: 2s;
+}
+
+.universe-h1,.exploration-h1{
+  font-weight: 700;
+font-size: 48px;
+line-height: 125%;
+font-weight: 700;
+}
+
+.content-universe,.content-exploration{
+  
+width: 65rem;
+  
+font-weight:400;
+font-size: 18px;
+line-height: 160%;
+
+  
+}
+
