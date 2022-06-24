@@ -25,7 +25,7 @@ this.pageStyle(pathname)
 
 fetch(route)
 .then(data => data.text())
-.then(html =>{document.querySelector('#app').innerHTML = html })
+.then(html =>{document.getElementById('app').innerHTML = html })
 }
 
 
