@@ -30,7 +30,7 @@ body{
   min-width: 100vw;
   min-height: 100vh;
   background-size: cover;
-  background: url(/imgs/mountains-universe-1.png);
+  background:var(--img-home);
   
 }
 
